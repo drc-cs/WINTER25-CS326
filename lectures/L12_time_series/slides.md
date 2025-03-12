@@ -170,6 +170,8 @@ Seasonal Decomposition is a technique used to separate a time series into its tr
 
 ### **Question**: Does this figure represent additive or multiplicative decomposition?
 
+*Answer -- additive.
+
 <img src="https://sthalles.github.io/assets/time-series-decomposition/complete-seasonality-plot-additive.png" width="400" style="margin: 0 auto; display: block;">
 <span style="font-size: 0.6em; padding-top: 0.5em; text-align: center; display: block; color: grey;">Thalles 2019</span>
 
@@ -492,6 +494,7 @@ ARIMA takes three parameters when fitting a model ($p$, $d$, $q$).
 </div>
 
 **Question**: What is a reasonable value of $p$ based on the following? 
+Answer: 2
 
 <img src = "https://storage.googleapis.com/cs326-bucket/lecture_13/ar.png" width="60%" style="margin: 0 auto; display: block;">
 <span style="font-size: 0.5em; text-align: center; display: block; color: grey; ">Spur Economics 2022</span>
@@ -513,6 +516,7 @@ ARIMA takes three parameters when fitting a model ($p$, $d$, $q$).
 </div>
 
 **Question**: What is a reasonable value of $d$ based on the following? 
+Answer: 1
 
 ```python
 import numpy as np
@@ -547,6 +551,7 @@ ARIMA takes three parameters when fitting a model ($p$, $d$, $q$).
 </div>
 
 **Question**: What is a reasonable value of $q$ based on the following? 
+Answer: 2
 
 <img src = "https://storage.googleapis.com/cs326-bucket/lecture_13/ma.png" width="60%" style="margin: 0 auto; display: block;">
 <span style="font-size: 0.5em; text-align: center; display: block; color: grey; ">Spur Economics 2022</span>

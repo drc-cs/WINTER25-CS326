@@ -266,7 +266,7 @@ Which of the following is an advantage of content-based filtering?
 &emsp;A. Easy to implement. <br>
 &emsp;B. No need for data on other users. <br>
 &emsp;C. Can recommend niche items. <br>
-&emsp;D. All of the above. <br>
+&emsp;D. All of the above.* <br>
 </div>
 </div>
 <div class='c2' style = 'width: 40%; display: flex; align-items: center; flex-direction: column;'>
@@ -479,26 +479,6 @@ Where:
 | Can recommend items that the user has not seen before | Cold-start problem for both users and items |
 | Can recommend items that are popular among similar users | Missing values in the user-item matrix |
 
-<!--s-->
-
-## L.11 | Q.02
-
-Which of the following is an advantage of **user-user collaborative** filtering?
-
-
-<div class='col-wrapper' style = 'display: flex; align-items: top; margin-top: 2em; margin-left: -1em;'>
-<div class='c1' style = 'width: 60%; display: flex; align-items: center; flex-direction: column; margin-top: 2em'>
-<div style = 'line-height: 2em; font-size: 0.8em;'>
-&emsp;A. Easy to implement. <br>
-&emsp;B. No need for data on other users. <br>
-&emsp;C. Can recommend niche items. <br>
-&emsp;D. All of the above. <br>
-</div>
-</div>
-<div class='c2' style = 'width: 40%; display: flex; align-items: center; flex-direction: column;'>
-<iframe src="https://drc-cs-9a3f6.firebaseapp.com/?label=L.11 | Q.02" width="100%" height="100%" style="border-radius: 10px;"></iframe>
-</div>
-</div>
 
 <!--s-->
 
