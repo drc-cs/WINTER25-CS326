@@ -13,7 +13,7 @@ revealOptions:
 
 
   # Introduction to Data Science Pipelines
-  ## Exam Part I
+  ## Exam Part II
 
   </div>
   </div>
@@ -28,7 +28,7 @@ revealOptions:
 
 # Exam Password
 
-<span class = 'code-span' style ='font-size: 4em;'>W2025CS326</span>
+<span class = 'code-span' style ='font-size: 4em;'>2exam2025</span>
 
 </div>
 
