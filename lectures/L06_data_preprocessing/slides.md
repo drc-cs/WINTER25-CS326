@@ -33,7 +33,7 @@ revealOptions:
   </div>
   </div>
   <div class="c2" style="width: 50%; height: auto;">
-  <iframe src="https://drc-cs-9a3f6.web.app/?label=Enter Code" width="100%" height="100%" style="border-radius: 10px;"></iframe>
+  <iframe src="https://drc-cs-9a3f6.web.app/?label=Enter Code" width="100%" height="100%" style="border-radius: 10px;" sandbox="allow-scripts allow-same-origin"></iframe>
   </div>
 </div>
 
@@ -329,8 +329,8 @@ scaler.transform(data)
 
 | Method | Pros | Cons | When to Use | 
 |--------|------|------| ------------|
-| MinMax | Preserves relationships. Bounded between 0 and 1. | Sensitive to outliers | When the data is uniformly distributed. |
-| Standard | More robust to outliers. | May not preserve relationships. Not bounded. | When the data is normally distributed. |
+| MinMax | Bounded between 0 and 1. | Sensitive to outliers | When the data is uniformly distributed. |
+| Standard | More robust to outliers. | Not bounded. | When the data is normally distributed. |
 
 **A special note on training / testing sets** -- always fit the scaler on the training set and transform both the training and testing sets using those parameters. This ensures that the testing set is not used to influence the training set.
 
